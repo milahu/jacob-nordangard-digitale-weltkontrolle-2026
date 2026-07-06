@@ -44,26 +44,37 @@ args+=(
   --scale "$scale"
   --image-format avif
   --text-format html
-  --doc-title "$doc_title"
   --doc-modified "$doc_modified"
-)
-todo_args+=(
-  --doc-title ""
-  --doc-subtitle ""
-  --doc-description ""
-  --doc-subject ""
-  --doc-date 2025
+  --color-image-pages 305,306
+  --doc-title "Die digitale Weltkontrolle"
+  --doc-subtitle "The Digital World Brain – Die UN-Agenda, der Zukunftspakt und die Abgabe unserer Freiheit"
+  --doc-description "Was wäre, wenn die größte Machtverschiebung unserer Zeit längst beschlossen ist?
+
+Der schwedische Wissenschaftler Dr. Jacob Nordangård zeigt,
+dass sich hinter Begriffen wie „Nachhaltigkeit“, „Gleichheit“ und „Gerechtigkeit“ ein Etikettenschwindel verbirgt,
+der auf eine düstere Agenda abzielt.
+
+Eine Agenda, in der Überwachung und digitale Identitäten zu Instrumenten umfassender Kontrolle werden.
+
+Im Zentrum steht „Our Common Agenda“, das Reformprojekt der Agenda 2030. Es ebnet den Weg für eine neue Form globaler Steuerung,
+in der internationale Organisationen, Finanzakteure und „Philanthropen“ beispiellose Machtbefugnisse erhalten –
+und die Welt schleichend in eine Technokratie geführt wird.
+
+Es geht nicht um Reformen. Es geht um Macht.
+Und um die Frage, wer in Zukunft über unser Leben entscheidet."
+  --doc-subject "Conspiracy"
+  --doc-date 2026-05-05
   --doc-edition 1
-  --doc-extent "123 pages"
-  --doc-author ""
-  --doc-introducer ""
-  --doc-contributor ""
-  --doc-translator ""
-  --doc-publisher ""
+  --doc-extent "304 pages"
+  --doc-author "Jacob Nordangård"
+  # --doc-introducer ""
+  # --doc-contributor ""
+  --doc-translator "Siddhartha Peghini Bailey"
+  --doc-publisher "Corage Media"
   --doc-language de
-  --doc-isbn 0000000000000
-  --doc-cover-image 070-deskew/999.tiff
-  --canonical-url-base https://milahu.github.io/todo/
+  --doc-isbn 9789083525969
+  --doc-cover-image 077-compress-jpeg/305.jpg
+  --canonical-url-base https://milahu.github.io/jacob-nordangard-digitale-weltkontrolle-2026/
 )
 
  printf '>'
